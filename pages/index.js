@@ -14,7 +14,7 @@ export default function Home() {
             <Head>
                 <title>Luke Ponga's Portfolio</title>
                 <meta name="description" content="Luke Ponga - Junior Software Developer" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="./favicon.ico" />
             </Head>
             <Header />
             <AboutMe />
