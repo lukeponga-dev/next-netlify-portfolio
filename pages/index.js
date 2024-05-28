@@ -4,20 +4,55 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+<div>
+            <Header />
+            <AboutMe />
+            <Projects />
+            <Contact />
+            <Footer />
+        </div>
+    );
+}
 
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
+const Header = () => {
+    return (
+        <header>
+            <h1>Welcome to My Portfolio</h1>
+        </header>
+    );
+}
 
-      <Footer />
-    </div>
-  )
+const AboutMe = () => {
+    return (
+        <section>
+            <h2>About Me</h2>
+            <p>...</p>
+        </section>
+    );
+}
+
+const Projects = () => {
+    return (
+        <section>
+            <h2>Projects</h2>
+            <p>...</p>
+        </section>
+    );
+}
+
+const Contact = () => {
+    return (
+        <section>
+            <h2>Contact</h2>
+            <p>...</p>
+        </section>
+    );
+}
+
+const Footer = () => {
+    return (
+        <footer>
+            <p>© 2024 Lukeponga-dev</p>
+        </footer>
+    );
 }
