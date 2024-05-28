@@ -6,9 +6,9 @@ import Contact from '../components/Contact' // Importing the Contact component f
 import Footer from '../components/Footer' // Importing the Footer component from the '../components/Footer' file
 
 // Exporting a default function named Home
-export default function Home() { 
-   
-    // A div element with a className of "portfolio"
+export default function Home() {
+
+    // Returning the JSX for the Home component
     return (
         <div className="portfolio">
             <Head>
@@ -18,7 +18,7 @@ export default function Home() {
             </Head>
             <Header />
             <AboutMe />
-            <Projects /> {/* Pass the projects array as a prop */}
+            <Projects />
             <Contact />
             <Footer />
         </div>

@@ -1,5 +1,9 @@
 import React from 'react';
 
+/**
+ * Renders a list of projects with their names and descriptions.
+ * @returns {JSX.Element} The rendered Projects component.
+ */
 const Projects = () => {
     const projects = [
         { name: 'DSD-2-VideoStore', description: 'A project related to the Diploma in Software Development.' },
