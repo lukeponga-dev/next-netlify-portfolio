@@ -61,7 +61,10 @@ footer {
   align-items: center;
 }
 
-
+.social-icons {
+  display: flex;
+  gap: 10px; /* Adjust this value to increase or decrease the space between icons */
+}
 /* Styling for the form element */
 form {
   display: flex;
