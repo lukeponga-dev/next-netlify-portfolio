@@ -7,7 +7,7 @@ const Contact = () => {
   // have the email a button that opens the email client
   // have the social media links open in a new tab
 return (
-  <section>
+  <section className="contact-section">
     <h2>Contact Me</h2>
    
     <p>Feel free to reach out to me at </p>
@@ -15,9 +15,9 @@ return (
     <p>Let's connect on social media:</p>
 <ul className="social-icons">
   <li>
-    <a href="https://twitter.com/gilchrist_luke" target="_blank" rel="noopener noreferrer">
+    <a href="https://twitter.com/gilchrist_luke" target="_blank" rel="noopener noreferrer"/>
       <FontAwesomeIcon icon={faTwitter} size="1x" style={{ color: 'blue' }} />
-    </a>
+    
   </li>
   <li>
     <a href="https://www.linkedin.com/in/lukeponga/" target="_blank" rel="noopener noreferrer">

@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMe = () => {
     return (
-        <div>
+        <div className='about-section'>
             <h1>About Me</h1>
             <p>Hello! I'm Luke Ponga, a Junior Software Developer based in Hamilton, New Zealand. I'm passionate about crafting user-friendly solutions and contributing to innovative projects. With hands-on experience in MS SQL Server, .NET platform development, and proficiency in C#, JavaScript, HTML, and CSS, I'm ready to bring your vision to life.</p>
             <p>When I'm not coding, you can find me exploring the great outdoors, camera in hand. I'm an avid hiker and photographer, and I often combine these hobbies to capture the beauty of nature. These adventures reinforce my belief in continuous learning and improvement, principles I carry into my professional life.</p>
