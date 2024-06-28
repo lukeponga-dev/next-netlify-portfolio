@@ -29,25 +29,6 @@ main {
   align-items: center;
 }
 
-/* Header */
-header {
-  background-color: #f5f5f5;
-  padding: 20px;
-  text-align: center;
-}
-.header-image{
-  position:relative ;
-width: 100%;       /* Adjust as needed */
-height: 500px;      /* Adjust for desired height */
-overflow: auto;  /* Hide any image overflow */
-}
-
-.header-title {
-text-align: center;
-padding: 20px 0;
-/* Add more styles as needed */
-}
-
 h1,h2 {
   font-size: 30px;
   color: #333;
