@@ -1,50 +1,28 @@
 /* Projects.module.css */
 .projects-section {
-  background-color: #ffffff; /* Set a light background for the projects */
-  padding: 40px 0; /* Add vertical padding */
-  text-align: center; /* Center the text */
-}
-
-.projects-title {
-  font-size: 2.5rem; /* Large font size for the title */
-  margin-bottom: 1rem; /* Space below the title */
-  color: #333; /* Dark text for contrast */
+  padding: 2rem;
+  background-color: #f9f9f9;
 }
 
 .project-card {
-  display: inline-block; /* Align cards side by side */
-  width: 300px; /* Fixed width for each card */
-  margin: 1rem; /* Space around cards */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .project-card:hover {
-  transform: translateY(-10px); /* Lift card on hover */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.project-image {
-  width: 100%; /* Full width of the card */
-  height: 200px; /* Fixed height for images */
-  object-fit: cover; /* Cover the area without stretching */
+.project-title {
+  font-size: 1.5rem;
+  color: #333;
 }
 
 .project-description {
-  padding: 1rem; /* Padding inside the card */
-  font-size: 1rem; /* Standard font size for text */
-}
-
-.project-tech {
-  font-size: 0.85rem; /* Smaller font size for tech stack */
-  color: #777; /* Lighter text for less emphasis */
-}
-
-.project-links {
-  padding: 1rem; /* Padding at the bottom of the card */
-}
-
-.project-link {
-  text-decoration: none; /* No underline on links */
-  color: #0070f3; /* Theme color for links */
-  margin-right: 0.5rem; /* Space between links */
+  font-size: 1rem;
+  color: #666;
 }
