@@ -1,9 +1,8 @@
-import React from 'react';
 
-/**
- * Renders a list of projects with their names and descriptions.
- * @returns {JSX.Element} The rendered Projects component.
- */
+// Projects.js
+import React from 'react';
+import styles from './Projects.module.css';
+
 const Projects = () => {
     const projects = [
         { name: 'DSD-2-VideoStore', description: 'A project related to the Diploma in Software Development.' },
@@ -17,12 +16,12 @@ const Projects = () => {
     ];
 
     return (
-        <section className="projects-section">
+        <section className={styles['projects-section']}>
             <h2>My Projects</h2>
             {projects.map((project, index) => (
-                <div key={index}>
-                    <h3>{project.name}</h3>
-                    <p>{project.description}</p>
+                <div key={index} className={styles['project-card']}>
+                    <h3 className={styles['project-title']}>{project.name}</h3>
+                    <p className={styles['project-description']}>{project.description}</p>
                 </div>
             ))}
         </section>

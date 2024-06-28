@@ -1,0 +1,24 @@
+/* AboutMe.module.css */
+.aboutSection {
+  background-color: #f8fafc;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 18px;
+}
+
+.aboutSection h1 {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+}
+
+.aboutSection p {
+  font-size: 18px;
+}
+
+/* Add more styles as needed */
