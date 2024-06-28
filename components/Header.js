@@ -1,22 +1,23 @@
 import React from 'react';
 import Image from 'next/image'
-const Header = () => {
-  return (
+// Header.js
+import styles from './Header.module.css';
 
-    <header>
-      <div className='header-image'>
-        <Image src='/hero-bg.jpg'
+function Header() {
+  return (
+    <header className={styles.header}>
+      <div className={styles['header-image']}>
+        {/* Image content */}
+         <Image src='/hero-bg.jpg'
           layout="fill"  // Fill the container
           objectFit="cover" // Cover the area, may crop
           priority       // Prioritize loading for the header
-        >
+         >
         </Image>
-        </div>
-      <h1 className='header-title'>Welcome to My Portfolio</h1>
+
+      </div>
+      <h1 className={styles['header-title']}>Welcome to My Portfolio</h1>
+      {/* other content */}
     </header>
   );
 }
-
-export default Header;
-
-
