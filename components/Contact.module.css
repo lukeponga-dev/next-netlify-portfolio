@@ -1,60 +1,52 @@
-/* Contact.module.css */
-
+/*
+Contact.module.css
+*/
 .contactSection {
+  text-align: center;
   padding: 2rem;
   background-color: #f9f9f9;
-  text-align: center;
-}
-
-.contactSection h2{
-  font-size: 2rem;
-  color: #333;
-}
-
-.contactSection p{
-  font-size: 1rem;
-  color: #666;
 }
 
 .emailButton {
   display: inline-block;
-  margin: 1rem 0;
+  background-color: #007bff;
+  color: white;
   padding: 0.5rem 1rem;
-  background-color: #0070f3;
-  color: #fff;
+  border-radius: 5px;
   text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-.emailButton:hover {
-  background-color: #005bb5;
+  margin: 0.5rem 0;
 }
 
 .socialIcons {
   list-style: none;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
 }
 
 .socialIcons li {
-  display: inline-block;
+  display: inline;
+  margin: 0 0.5rem;
 }
 
-.iconTwitter {
-  color: #1DA1F2;
-}
-
-.iconLinkedin {
-  color: #0077B5;
-}
-
-.iconInstagram {
-  color: #E4405F;
-}
-
+.iconTwitter,
+.iconLinkedin,
+.iconInstagram,
 .iconGithub {
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.iconTwitter:hover {
+  color: #1da1f2;
+}
+
+.iconLinkedin:hover {
+  color: #0077b5;
+}
+
+.iconInstagram:hover {
+  color: #e1306c;
+}
+
+.iconGithub:hover {
   color: #333;
 }
