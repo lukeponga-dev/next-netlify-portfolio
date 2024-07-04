@@ -6,16 +6,6 @@
   text-align: center;
 }
 
-h2 {
-  font-size: 2rem;
-  color: #333;
-}
-
-p {
-  font-size: 1rem;
-  color: #666;
-}
-
 .emailButton {
   display: inline-block;
   margin: 1rem 0;
