@@ -1,40 +1,22 @@
-/* Projects.module.css */
 .projects-section {
-  padding: 2rem;
-  background-color: #f8fafc;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .project-card {
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-bottom: 1rem;
+  border: 1px solid #ccc;
   padding: 1rem;
-  transition: box-shadow 0.3s ease-in-out;
-  width: 100%;
-  max-width: 600px; /* Adjust this value as needed */
-}
-
-.project-card:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: calc(33% - 2rem);
+  box-sizing: border-box;
 }
 
 .project-title {
   font-size: 1.5rem;
-  color: #333;
+  margin-bottom: 0.5rem;
 }
 
 .project-description {
   font-size: 1rem;
-  color: #666;
-}
-
-/* Responsive Design */
-@media (max-width: 600px) {
-  .project-card {
-    max-width: 100%; /* Ensure full width on smaller screens */
-  }
+  margin-bottom: 1rem;
 }
