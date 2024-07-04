@@ -25,15 +25,14 @@ p {
 
 a {
   color: #0070f3;
-  text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-.container {
-  width: 100%;
+ .portfolio{
+width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
@@ -68,7 +67,7 @@ a:hover {
     font-size: 14px;
   }
 
-  .container {
+  .portfolio {
     padding: 0 0.5rem;
   }
 }

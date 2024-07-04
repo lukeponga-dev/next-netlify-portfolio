@@ -1,8 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faLinkedin, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons';
-import styles from './Contact.module.css'; // Make sure to create this CSS module file
-
+import styles from './Contact.module.css'
 const Contact = () => {
   return (
     <section className={styles.contactSection}>
