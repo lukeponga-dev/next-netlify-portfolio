@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Projects.module.css';
-
+const Projects = () => {
 const projects = [
   {
     name: 'DSD-2-VideoStore',
@@ -35,5 +35,5 @@ return (
     ))}
   </section>
 );
-
+};
 export default Projects;
