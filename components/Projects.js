@@ -5,7 +5,7 @@ import styles from './Projects.module.css';
 
 const Projects = () => {
     const projects = [
-        { name: 'DSD-2-VideoStore', description: 'Functionality: Users can manage video rentals, add new videos, update video information, and track rentals and returns. Database Integration: Utilizes SQL Server for efficient data storage and retrieval. Unit Testing: Includes unit tests to ensure the application’s reliability and correctness. User Interface: Features a user-friendly interface for easy navigation and task management' },
+        { name: 'DSD-2-VideoStore', description: 'Functionality: Users can manage video rentals, add new videos, update video information, and track rentals and returns. Database' <br> 'Integration: Utilizes SQL Server for efficient data storage and retrieval. Unit Testing: Includes unit tests to ensure the application’s reliability and correctness. User Interface: Features a user-friendly interface for easy navigation and task management' },
         { name: 'DSD05HorseBetRace', description: 'An assessment project for the Diploma in Software Development.' },
         { name: 'FizzBuzzProject', description: 'A classic coding challenge implemented in C#.' },
         { name: 'university-java-data-structures', description: 'Data Structures and Algorithms in Java - university assignments.' },
