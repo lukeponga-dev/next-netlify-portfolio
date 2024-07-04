@@ -1,9 +1,14 @@
 /* Projects.module.css */
+
+/* Section: Projects */
 .projects-section {
+  display: flex;
+  flex-direction: column;
   padding: 2rem;
   background-color: #f9f9f9;
 }
 
+/* Project Card */
 .project-card {
   background-color: #fff;
   border-radius: 8px;
@@ -17,12 +22,25 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* Project Title */
 .project-title {
   font-size: 1.5rem;
   color: #333;
 }
 
+/* Project Description */
 .project-description {
   font-size: 1rem;
   color: #666;
+}
+
+/* Project Link */
+.project-card a {
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
 }
