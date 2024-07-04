@@ -15,6 +15,11 @@ body {
 *::after {
   box-sizing: inherit;
 }
+/* Global Styles */
+.portfolio {
+  padding: 2rem;
+  background-color: #f8fafc;
+}
 
 /* Main content */
 main {
