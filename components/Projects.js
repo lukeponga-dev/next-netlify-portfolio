@@ -25,7 +25,7 @@ const projects = [
 ];
 
 return (
-  <section className={styles['projects-section']}>
+  <div className={styles['projects-section']}>
     <h2>My Projects</h2>
     {projects.map((project, index) => (
       <div key={index} className={styles['project-card']}>
@@ -33,7 +33,7 @@ return (
         <p className={styles['project-description']}>{project.description}</p>
       </div>
     ))}
-  </section>
+  </div>
 );
 };
 export default Projects;
