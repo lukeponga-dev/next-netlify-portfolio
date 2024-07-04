@@ -30,16 +30,18 @@ const projects = [
 ];
 
 const Projects = () => (
-      <h1>My Projects</h1>
-      <section className={styles['projects-section']}>
-        {projects.map((project, index) => (
-          <div key={index} className={styles['project-card']}>
-            <h3 className={styles['project-title']}>{project.title}</h3>
-            <p className={styles['project-description']}>{project.description}</p>
-            <a href={project.link} target="_blank" rel="noopener noreferrer">View Project</a>
-          </div>
-        ))}
-      </section>
+  <div>
+    <h1>My Projects</h1>
+    <section className={styles['projects-section']}>
+      {projects.map((project, index) => (
+        <div key={index} className={styles['project-card']}>
+          <h3 className={styles['project-title']}>{project.title}</h3>
+          <p className={styles['project-description']}>{project.description}</p>
+          <a href={project.link} target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+      ))}
+    </section>
+  </div>
 );
 
 export default Projects;
