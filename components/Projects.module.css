@@ -18,7 +18,7 @@
   transition: box-shadow 0.3s ease-in-out;
   width: 100%;
   max-width: 300px;
-  flex: 1 1 calc(33.333% - 2rem); /* Three cards per row */
+  flex: 1 1 calc(50% - 2rem); /* Two cards per row */
 }
 
 .project-card:hover {
@@ -36,11 +36,6 @@
 }
 
 /* Responsive Design */
-@media (max-width: 900px) {
-  .project-card {
-    flex: 1 1 calc(50% - 2rem); /* Two cards per row */
-  }
-}
 
 @media (max-width: 600px) {
   .project-card {
