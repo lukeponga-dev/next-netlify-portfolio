@@ -25,3 +25,31 @@ main {
   justify-content: center;
   align-items: center;
 }
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  main {
+    padding: 2rem 1rem;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .project-card {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media (min-width: 900px) {
+  .project-card {
+    width: calc(33% - 2rem);
+  }
+}
