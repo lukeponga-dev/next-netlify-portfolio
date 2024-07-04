@@ -15,11 +15,6 @@ body {
 *::after {
   box-sizing: inherit;
 }
-/* Global Styles */
-.portfolio {
-  padding: 2rem;
-  background-color: #f8fafc;
-}
 
 /* Main content */
 main {
@@ -29,42 +24,4 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-/* Styling for the form element */
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-form label {
-  margin-bottom: 10px;
-}
-
-form input,
-form textarea {
-  margin-bottom: 20px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-form input:focus,
-form textarea:focus {
-  border-color: #0070f3;
-  outline: none;
-}
-
-form input[type="submit"] {
-  cursor: pointer;
-  background-color: #0070f3;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-form input[type="submit"]:hover {
-  background-color: #005bb5;
 }
