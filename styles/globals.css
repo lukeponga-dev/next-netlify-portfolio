@@ -13,9 +13,9 @@ body {
 }
 
 * {
-  margin: 0;
+  margin: 10 0 10 0;
   padding: 0;
-  box-sizing: border-box; /* Ensures padding and border are included in element width/height */
+  box-sizing:border-box; /* Ensures padding and border are included in element width/height */
 }
 
 /* Typography */
@@ -45,7 +45,7 @@ a:hover {
 /* Layout (Example Classes) */
 .portfolio {
   width: 100%;
-  max-width: 1000px; /* Limits container width for better readability */
+  max-width: 100%; /* Limits container width for better readability */
   margin: 0 auto; /* Centers the portfolio container */
   padding: 1rem 1rem; /* Adds consistent padding around the portfolio content */
 }
@@ -60,7 +60,7 @@ a:hover {
     font-size: 14px;
   }
   .portfolio {
-    padding: 2rem 0.5rem; /* Reduce padding on smaller screens */
+    padding: 1rem 0.5rem; /* Reduce padding on smaller screens */
   }
 }
 
