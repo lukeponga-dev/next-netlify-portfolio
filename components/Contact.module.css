@@ -1,52 +1,66 @@
-/*
-Contact.module.css
-*/
+/* Contact.module.css */
+
 .contactSection {
   text-align: center;
-  padding: 2rem;
-  background-color: #f9f9f9;
+  padding: 10px 20px; /* Increased padding for a more spacious feel */
+  background-color: #f9f9f9; /* Light gray background */
+}
+
+.contactHeader {
+  /* Optional: Added a header style */
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
 }
 
 .emailButton {
   display: inline-block;
-  background-color: #007bff;
+  background-color: #007bff; /* Primary blue */
   color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
+  padding: 0.8rem 1.5rem; /* Increased button size */
+  border: none; /* Removed default button border */
+  border-radius: 8px; /* Slightly rounder corners */
   text-decoration: none;
-  margin: 0.5rem 0;
+  margin: 1rem 0;
+  font-weight: bold; /* Added for emphasis */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.emailButton:hover {
+  background-color: #0056b3; /* Darker blue on hover */
 }
 
 .socialIcons {
-  list-style: none;
-  padding: 0;
+  display: flex; /* Use inline-flex for horizontal layout */
+  justify-content: center;
+  margin-top: 2rem;
 }
 
-.socialIcons li {
-  display: inline;
-  margin: 0 0.5rem;
-}
-
-.iconTwitter,
-.iconLinkedin,
-.iconInstagram,
-.iconGithub {
-  color: #007bff;
+.socialIcons a {
+  text-decoration: none;
+  display: contents;
+  /* Generic class for all social icons */
+  color: #333;
+  font-size: 24px;
+  margin: 0 2rem;
   transition: color 0.3s ease;
 }
 
-.iconTwitter:hover {
+.socialIcons a:hover {
+  /* Changed to a:hover */
+  color: #007bff;
+}
+
+/* Specific icon hover colors (optional) */
+.socialIcons a.twitter:hover {
+  /* Changed to a.twitter:hover */
   color: #1da1f2;
 }
-
-.iconLinkedin:hover {
+.socialIcons a.linkedin:hover {
   color: #0077b5;
 }
-
-.iconInstagram:hover {
+.socialIcons a.instagram:hover {
   color: #e1306c;
 }
-
-.iconGithub:hover {
+.socialIcons a.github:hover {
   color: #333;
 }
