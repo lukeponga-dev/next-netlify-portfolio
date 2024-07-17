@@ -16,8 +16,9 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Header /> {/* Wrap content in a <main> element for accessibility */}
+
       <main className="portfolio">
-        <Header /> {/* Wrap content in a <main> element for accessibility */}
         <AboutMe />
         <Projects />
         <Contact />
